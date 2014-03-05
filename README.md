@@ -6,19 +6,25 @@ This is a starter project to get you going with a fresh installation of [Grunt.j
 
 First, make sure you have the lastest Node and npm. Go to [nodejs.org](http://nodejs.org/), download and install its package even if you have it already. Trust me, you'll just save yourself the headache and googling.
 
-Now, to get up and running, just run the following command.
+To get the actual Grunt command set up:
+
+```bash
+$ npm install -g grunt-cli
+```
+
+Now, to get the blank slate up and running:
 
 ```bash
 $ rake install
 ```
 
-After that finishes running, just enter this command...
+And finally, to start up the project:
 
 ```bash
 $ grunt
 ```
 
-...and you should be off to the races, as they say.
+And you should be off to the races, as they say.
 
 Note: `index.html` is mostly [HTML5 Boilerplate](http://html5boilerplate.com/) with stuff stripped out. `/css/scss/normalize.scss` is from [normalize.css](http://necolas.github.io/normalize.css/).
 
