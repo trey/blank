@@ -15,10 +15,13 @@ module.exports = function(grunt) {
         options: {
           style: 'compressed'
         },
-        files: {
-          'css/main.css': 'css/scss/main.scss',
-          'css/breakpoints.css': 'css/scss/breakpoints.scss',
-        }
+        files: [{
+          expand: true,
+          cwd: 'css/scss',
+          src: ['*.scss'],
+          dest: 'css',
+          ext: '.css'
+        }]
       }
     },
     jshint: {
