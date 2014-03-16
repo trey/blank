@@ -17,6 +17,7 @@ module.exports = function(grunt) {
         },
         files: {
           'css/main.css': 'css/scss/main.scss',
+          'css/breakpoints.css': 'css/scss/breakpoints.scss',
         }
       }
     },
