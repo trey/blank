@@ -18,7 +18,7 @@ $breakpoints: (
 
 @mixin breakpoint($query) {
     @media only screen and #{$query}  {
-        @content
+        @content;
     }
 }
 
