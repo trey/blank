@@ -6,7 +6,7 @@ module.exports = function(grunt) {
     connect: {
       server: {
         options: {
-          open: true,
+          open: false,
         },
       },
     },
