@@ -24,10 +24,15 @@ And finally, to start up the project:
 $ grunt
 ```
 
-And you should be off to the races, as they say.
+### Next Steps
+
+- Delete `Rakefile` (it's only for initial setup).
+- Edit the `name` and `version` fields in `packages.json`.
+- Replace the contents of `README.md` with things relevant to your project.
+- Git-ify your sparkly new project as usual (`git init` and all that).
+
+---
 
 Note: `index.html` is mostly [HTML5 Boilerplate](http://html5boilerplate.com/) with stuff stripped out. `/css/scss/normalize.scss` is from [normalize.css](http://necolas.github.io/normalize.css/).
 
 The idea for this came from [the little Solutions Log post I wrote](https://gist.github.com/trey/6679792) and the fact that I had to keep referring to it to build little one off prototypes I was working on. Now I can just grab a copy of this and get rocking  immediately.
-
-P.S. You'll probably want to edit the `name` and `version` fields in `packages.json` eventually.
