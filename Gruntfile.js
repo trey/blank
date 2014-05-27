@@ -24,6 +24,17 @@ module.exports = function(grunt) {
         }]
       }
     },
+    coffee: {
+      dist: {
+        files: [{
+          expand: true,
+          cwd: 'js/coffee',
+          src: ['*.coffee'],
+          dest: 'js',
+          ext: '.js'
+        }]
+      }
+    },
     jshint: {
       files: ['js/*.js'],
     },
@@ -51,11 +62,16 @@ module.exports = function(grunt) {
         // the style to refresh without reloading the page in the browser.
         files: ['css/**/*.css'],
       },
+      coffee: {
+        files: ['js/**/*.coffee'],
+        tasks: ['coffee'],
+      },
     },
   });
 
   // Actually running things.
   grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-coffee');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-jshint');
