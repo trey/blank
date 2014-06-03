@@ -5,7 +5,10 @@
 
 // http://www.paulirish.com/2012/box-sizing-border-box-ftw/
 *, *:before, *:after {
+    // If you have Bourbon installed, delete the following line...
     -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+    // and uncomment this:
+    // @include box-sizing(border-box);
 }
 
 body {
