@@ -36,6 +36,20 @@ module.exports = function(grunt) {
         }]
       }
     },
+    svgstore: {
+      options: {
+        prefix: 'shape-',
+        svg: {
+          style: 'display: none;'
+        },
+        includedemo: true
+      },
+      default: {
+        files: {
+          'img/svg-sprites.svg': ['img/svg/**/*.svg']
+        }
+      }
+    },
     jshint: {
       files: ['js/*.js'],
     },
@@ -67,11 +81,16 @@ module.exports = function(grunt) {
         files: ['js/**/*.coffee'],
         tasks: ['coffee'],
       },
+      svg: {
+        files: ['img/svg/**/*.svg'],
+        tasks: ['svgstore']
+      }
     },
   });
 
   // Actually running things.
   grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-svgstore');
   grunt.loadNpmTasks('grunt-contrib-coffee');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-connect');
