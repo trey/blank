@@ -25,17 +25,6 @@ module.exports = function(grunt) {
         }]
       }
     },
-    coffee: {
-      dist: {
-        files: [{
-          expand: true,
-          cwd: 'js/coffee',
-          src: ['*.coffee'],
-          dest: 'js',
-          ext: '.js'
-        }]
-      }
-    },
     svgstore: {
       options: {
         prefix: 'shape-',
@@ -77,10 +66,6 @@ module.exports = function(grunt) {
         // the style to refresh without reloading the page in the browser.
         files: ['css/**/*.css'],
       },
-      coffee: {
-        files: ['js/**/*.coffee'],
-        tasks: ['coffee'],
-      },
       svg: {
         files: ['img/svg/**/*.svg'],
         tasks: ['svgstore']
@@ -91,7 +76,6 @@ module.exports = function(grunt) {
   // Actually running things.
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-svgstore');
-  grunt.loadNpmTasks('grunt-contrib-coffee');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-jshint');

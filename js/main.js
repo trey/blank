@@ -1,4 +1,1 @@
-(function() {
-  console.log('Hello from CoffeeScript, world.');
-
-}).call(this);
+console.log('Hello, world.');
