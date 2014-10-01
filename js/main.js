@@ -1,3 +1,3 @@
-$('#svg-holder').load('/img/svg-sprites.svg');
+$('#svg-holder').load('/img/sprites.svg');
 
 console.log('Hello, world.');
