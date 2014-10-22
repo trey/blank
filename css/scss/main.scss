@@ -13,22 +13,23 @@ html {
 }
 *, *:before, *:after { box-sizing: inherit; }
 
-body {
-    background: #bada55;
+body { background: #bada55; }
 
-    a {
-        color: rgba(255, 255, 255, 0.7);
-        &:hover { color: rgba(255, 255, 255, 0.9); }
-    }
-
-    h1 {
-        padding: 10px 30px;
-        background: rgba(0, 0, 0, 0.2);
-    }
-
-    svg {
-        width: 100px;
-        margin-left: 50px;
-        fill: rgba(0, 0, 0, 0.2);
-    }
+a {
+    color: rgba(255, 255, 255, 0.7);
+    &:hover { color: rgba(255, 255, 255, 0.9); }
 }
+
+h1 {
+    padding: 10px 30px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+svg {
+    width: 100px;
+    margin-left: 50px;
+    fill: rgba(0, 0, 0, 0.2);
+}
+
+// http://css-tricks.com/links-inline-svg-staying-target-events/
+a > svg { pointer-events: none; }
