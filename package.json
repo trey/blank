@@ -1,4 +1,19 @@
 {
   "name": "my-project-name",
-  "version": "0.1.0"
+  "repository": {
+    "type": "git",
+    "url": "https://example.com/me/my-project-name.git"
+  },
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-sass": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-contrib-connect": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-notify": "latest",
+    "grunt-svgstore": "latest",
+    "load-grunt-config": "latest"
+  }
 }

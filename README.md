@@ -1,10 +1,10 @@
-# Grunt Blank Slate
+# Trey&rsquo;s Blank Slate
 
-This is a starter project to get you going with a fresh installation of [Grunt.js](http://gruntjs.com/). You can start customizing `/css/scss/main.scss` and it will automatically compile things to `/css/main.css`. Hell, if you have the [LiveReload](http://livereload.com/) [browser extension](http://go.livereload.com/extensions), it'll even refresh your browser as you edit code.
+This is a project to help to start a fresh website using [Grunt.js](http://gruntjs.com/) to do a bunch of stuff. You can start customizing `/static/css/scss/main.scss` and it will automatically compile things to `/static/css/main.css`. If you have the [LiveReload](http://livereload.com/) [browser extension](http://go.livereload.com/extensions), it'll even refresh your browser as you edit code.
 
 ## Installation
 
-First, make sure you have the lastest Node and npm. Go to [nodejs.org](http://nodejs.org/), download and install its package even if you have it already. Trust me, you'll just save yourself the headache and googling.
+First, make sure you have the lastest Node and npm. Go to [nodejs.org](http://nodejs.org/), download and install its package even if you have it already.
 
 To get the actual Grunt command set up:
 
@@ -12,10 +12,10 @@ To get the actual Grunt command set up:
 $ npm install -g grunt-cli
 ```
 
-Now, to get the blank slate up and running:
+To get the blank slate up and running:
 
 ```bash
-$ rake install
+$ npm install
 ```
 
 And finally, to start up the project:
@@ -26,8 +26,9 @@ $ grunt
 
 ### Next Steps
 
-- Delete `Rakefile` (it's only for initial setup).
-- Edit the `name` and `version` fields in `packages.json`.
+- Delete the existing `.git` folder if it's there. This is *your* project now.
+    - `$ rm -rf .git`
+- Edit the `name`, `version`, and `repository` fields in `package.json`.
 - Replace the contents of `README.md` with things relevant to your project.
 - Git-ify your sparkly new project as usual (`git init` and all that).
 
