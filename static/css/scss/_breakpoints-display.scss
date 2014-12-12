@@ -1,10 +1,8 @@
-/*
-    With thanks to:
-
-    http://viget.com/extend/check-your-breakpoint-using-this-simple-css-snippet
-    http://codepen.io/tommymarshall/pen/agABu
-    http://viget.com/extend/sass-maps-are-awesome
-*/
+//   With thanks to:
+//
+//   http://viget.com/extend/check-your-breakpoint-using-this-simple-css-snippet
+//   http://codepen.io/tommymarshall/pen/agABu
+//   http://viget.com/extend/sass-maps-are-awesome
 
 @mixin breakpoints-display($query) {
     @media only screen and #{$query} {
@@ -32,6 +30,7 @@ body:after {
 
     @each $point, $query in $breakpoints {
         $index: index(map-keys($breakpoints), $point);
+
         @include breakpoints-display($query) {
             background: lighten(#ff2a2a, 5 * $index);
             content: '#{$point}';

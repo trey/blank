@@ -14,6 +14,7 @@
     "grunt-contrib-uglify": "latest",
     "grunt-notify": "latest",
     "grunt-svgstore": "latest",
-    "load-grunt-config": "latest"
+    "load-grunt-config": "latest",
+    "grunt-scss-lint": "latest"
   }
 }

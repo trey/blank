@@ -4,32 +4,31 @@
 // @import 'breakpoints-display';
 
 // http://www.paulirish.com/2012/box-sizing-border-box-ftw/
-// http://css-tricks.com/international-box-sizing-awareness-day/
 html {
-    // If you have Bourbon installed, delete the following line...
-    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
-    // and uncomment this:
-    // @include box-sizing(border-box);
+    box-sizing: border-box;
 }
-*, *:before, *:after { box-sizing: inherit; }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 
 body { background: #bada55; }
 
 a {
-    color: rgba(255, 255, 255, 0.7);
-    &:hover { color: rgba(255, 255, 255, 0.9); }
+    color: rgba(255, 255, 255, .7);
+    &:hover { color: rgba(255, 255, 255, .9); }
+
+    // http://css-tricks.com/links-inline-svg-staying-target-events/
+    > svg { pointer-events: none; }
 }
 
 h1 {
     padding: 10px 30px;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, .2);
 }
 
 svg {
     width: 100px;
     margin-left: 50px;
-    fill: rgba(0, 0, 0, 0.2);
+    fill: rgba(0, 0, 0, .2);
 }
-
-// http://css-tricks.com/links-inline-svg-staying-target-events/
-a > svg { pointer-events: none; }
