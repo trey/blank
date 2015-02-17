@@ -15,6 +15,7 @@
     "grunt-notify": "latest",
     "grunt-svgstore": "latest",
     "load-grunt-config": "latest",
-    "grunt-scss-lint": "latest"
+    "grunt-scss-lint": "latest",
+    "grunt-autoprefixer": "latest"
   }
 }

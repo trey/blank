@@ -7,7 +7,7 @@ module.exports = {
   },
   js: {
     files: ['static/js/**/*.js'],
-    tasks: ['jshint'],
+    tasks: ['jshint']
   },
   sass: {
     options: {
@@ -16,12 +16,13 @@ module.exports = {
       livereload: false,
     },
     files: ['static/css/scss/**/*.scss'],
-    tasks: ['scsslint', 'sass'],
+    tasks: ['scsslint', 'sass']
   },
   css: {
     // LiveReload on the CSS files instead of their Sass source files and you
     // get the style to refresh without reloading the page in the browser.
-    files: ['static/css/**/*.css'],
+    files: ['static/css/build/**/*.css'],
+    tasks: ['autoprefixer']
   },
   svg: {
     files: ['static/img/svg/**/*.svg'],
