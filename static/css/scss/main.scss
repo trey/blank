@@ -1,30 +1,5 @@
-@import 'normalize';
-@import 'breakpoints';
+@import 'vendor/normalize';
+@import 'modules/breakpoints';
 // Uncomment the following line if you want to display your breakpoints.
-// @import 'breakpoints-display';
-
-// http://www.paulirish.com/2012/box-sizing-border-box-ftw/
-html { box-sizing: border-box; }
-
-*, *:before, *:after { box-sizing: inherit; }
-
-body { background: #bada55; }
-
-a {
-    color: rgba(255, 255, 255, .7);
-    &:hover { color: rgba(255, 255, 255, .9); }
-
-    // http://css-tricks.com/links-inline-svg-staying-target-events/
-    > svg { pointer-events: none; }
-}
-
-h1 {
-    padding: 10px 30px;
-    background: rgba(0, 0, 0, .2);
-}
-
-svg {
-    width: 100px;
-    margin-left: 50px;
-    fill: rgba(0, 0, 0, .2);
-}
+// @import 'modules/breakpoints-display';
+@import 'partials/base';
