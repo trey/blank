@@ -1,10 +1,10 @@
 # Trey's Blank Slate
 
-This is a project to help to start a fresh website using [Grunt.js](http://gruntjs.com/) to do a bunch of stuff. You can start customizing `/static/css/scss/main.scss` and it will automatically compile things to `/static/css/main.css`. If you have the [LiveReload](http://livereload.com/) [browser extension](http://go.livereload.com/extensions), it'll even refresh your browser as you edit code.
+This is a project to help to start a fresh website using [Grunt.js](http://gruntjs.com/) to do a bunch of stuff.
 
 ## Installation
 
-First, make sure you have the lastest Node and npm. Go to [nodejs.org](http://nodejs.org/), download and install its package even if you have it already.
+First, make sure you have the lastest Node and npm. Go to [nodejs.org](http://nodejs.org/), download and install it.
 
 To get the actual Grunt command set up:
 
@@ -30,6 +30,8 @@ And finally, to start up the project:
 ```bash
 $ grunt
 ```
+
+Open [localhost:3000](http://localhost:3000) in your browser to see your new project. To see [BrowserSync](http://www.browsersync.io/)'s UI, open [localhost:3001](http://localhost:3001).
 
 ### Next Steps
 
