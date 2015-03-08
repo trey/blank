@@ -1,3 +1,10 @@
 module.exports = {
-  'default': ['connect', 'sass', 'autoprefixer', 'browserSync', 'watch']
+  'default': [
+    'connect',
+    'sass',
+    'autoprefixer',
+    'react',
+    'browserSync',
+    'watch'
+  ]
 };

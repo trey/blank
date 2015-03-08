@@ -9,6 +9,10 @@ module.exports = {
     files: ['static/js/**/*.js'],
     tasks: ['jshint']
   },
+  jsx: {
+      files: ['static/js/jsx/**/*.jsx'],
+      tasks: ['react']
+  },
   sass: {
     options: {
       // Monitor Sass files for changes and compile them,

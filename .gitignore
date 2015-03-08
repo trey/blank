@@ -3,3 +3,4 @@ node_modules/
 static/css/build/
 static/css/*.css
 static/css/*.map
+static/js/*.js
