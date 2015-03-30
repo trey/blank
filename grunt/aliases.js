@@ -4,6 +4,8 @@ module.exports = {
     'sass',
     'autoprefixer',
     'react',
+    'svgstore',
+    'svgmin',
     'browserSync',
     'watch'
   ]

@@ -4,3 +4,5 @@ static/css/build/
 static/css/*.css
 static/css/*.map
 static/js/*.js
+static/img/sprites.svg
+static/img/sprites-demo.html

@@ -30,6 +30,6 @@ module.exports = {
   },
   svg: {
     files: ['static/img/svg/**/*.svg'],
-    tasks: ['svgstore']
+    tasks: ['svgstore', 'svgmin']
   }
 };
