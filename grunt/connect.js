@@ -1,7 +1,7 @@
 module.exports = {
-  server: {
-    options: {
-      open: false,
+    server: {
+        options: {
+            open: false,
+        }
     }
-  }
 };
