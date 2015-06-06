@@ -7,7 +7,7 @@
   "version": "0.1.0",
   "devDependencies": {
     "grunt": "latest",
-    "grunt-contrib-sass": "latest",
+    "grunt-sass": "latest",
     "grunt-contrib-watch": "latest",
     "grunt-contrib-connect": "latest",
     "grunt-contrib-jshint": "latest",
