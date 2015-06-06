@@ -1,7 +1,7 @@
 module.exports = {
     dist: {
         options: {
-            style: 'compressed'
+            outputStyle: 'nested'
         },
         files: [{
             expand: true,

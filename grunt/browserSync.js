@@ -6,6 +6,7 @@ module.exports = {
         options: {
             watchTask: true,
             files: [
+                '!static/css/build/**/*.css',
                 'static/css/**/*.css',
                 'static/js/**/*.js',
                 '*.html'
