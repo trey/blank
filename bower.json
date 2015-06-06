@@ -1,0 +1,22 @@
+{
+  "name": "my-project-name",
+  "version": "0.0.0",
+  "homepage": "https://example.com/me/my-project-name.git",
+  "authors": [
+    "Your Name <you@example.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "latest",
+    "jquery": "latest",
+    "svg4everybody": "latest",
+    "normalize.css": "latest"
+  }
+}

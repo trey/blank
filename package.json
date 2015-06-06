@@ -4,7 +4,7 @@
     "type": "git",
     "url": "https://example.com/me/my-project-name.git"
   },
-  "version": "0.1.0",
+  "version": "0.0.0",
   "devDependencies": {
     "grunt": "latest",
     "grunt-sass": "latest",

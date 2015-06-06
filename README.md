@@ -16,6 +16,7 @@ To get the blank slate up and running:
 
 ```bash
 $ npm install
+$ bower install
 ```
 
 If you don't already have [the `scss-lint` Ruby gem](https://github.com/causes/scss-lint) installed, you'll need to do that:
