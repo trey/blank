@@ -6,10 +6,11 @@ This is a project to help to start a fresh website using [Grunt.js](http://grunt
 
 First, make sure you have the lastest Node and npm. Go to [nodejs.org](http://nodejs.org/), download and install it.
 
-To get the actual Grunt command set up:
+To get the Grunt and Bower commands set up:
 
 ```bash
 $ npm install -g grunt-cli
+$ npm install -g bower
 ```
 
 To get the blank slate up and running:
