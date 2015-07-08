@@ -2,7 +2,7 @@ module.exports = {
     'default': [
         'connect',
         'sass',
-        'autoprefixer',
+        'postcss',
         'react',
         'svgstore',
         'svgmin',

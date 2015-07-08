@@ -19,6 +19,8 @@
     "grunt-autoprefixer": "latest",
     "grunt-browser-sync": "latest",
     "grunt-react": "^0.10.0",
-    "grunt-svgmin": "^2.0.1"
+    "grunt-svgmin": "^2.0.1",
+    "grunt-postcss": "^0.5.4",
+    "autoprefixer-core": "^5.2.1"
   }
 }

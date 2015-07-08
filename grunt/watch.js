@@ -26,7 +26,7 @@ module.exports = {
         // LiveReload on the CSS files instead of their Sass source files and
         // get the style to refresh without reloading the page in the browser.
         files: ['static/css/build/**/*.css'],
-        tasks: ['autoprefixer']
+        tasks: ['postcss']
     },
     svg: {
         files: ['static/img/svg/**/*.svg'],
