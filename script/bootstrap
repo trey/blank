@@ -1,0 +1,51 @@
+#!/bin/bash
+
+grunt_plugins=(
+    "grunt"
+    "grunt-sass"
+    "grunt-contrib-watch"
+    "grunt-contrib-connect"
+    "grunt-contrib-jshint"
+    "grunt-contrib-uglify"
+    "grunt-notify"
+    "grunt-svgstore"
+    "load-grunt-config"
+    "grunt-scss-lint"
+    "grunt-autoprefixer"
+    "grunt-browser-sync"
+    "grunt-react"
+    "grunt-svgmin"
+    "grunt-postcss"
+    "autoprefixer-core"
+)
+
+bower_plugins=(
+    "react"
+    "jquery"
+    "svg4everybody"
+    "normalize.css"
+)
+
+echo "==> Installing Grunt..."
+npm install -g grunt-cli
+
+echo "==> Installing Bower..."
+npm install -g bower
+
+echo "==> Installing SCSS Lint Ruby Gem..."
+gem update --system
+gem install scss_lint
+
+echo "==> Installing Grunt plugins..."
+
+for i in "${grunt_plugins[@]}"
+do
+    npm install $i --save-dev
+done
+
+echo "==> Installing Bower plugins..."
+
+for i in "${bower_plugins[@]}"
+do
+    bower install $i --save
+done

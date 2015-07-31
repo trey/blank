@@ -6,21 +6,5 @@
   },
   "version": "0.0.0",
   "devDependencies": {
-    "grunt": "latest",
-    "grunt-sass": "latest",
-    "grunt-contrib-watch": "latest",
-    "grunt-contrib-connect": "latest",
-    "grunt-contrib-jshint": "latest",
-    "grunt-contrib-uglify": "latest",
-    "grunt-notify": "latest",
-    "grunt-svgstore": "latest",
-    "load-grunt-config": "latest",
-    "grunt-scss-lint": "latest",
-    "grunt-autoprefixer": "latest",
-    "grunt-browser-sync": "latest",
-    "grunt-react": "^0.10.0",
-    "grunt-svgmin": "^2.0.1",
-    "grunt-postcss": "^0.5.4",
-    "autoprefixer-core": "^5.2.1"
   }
 }

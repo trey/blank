@@ -6,34 +6,31 @@ This is a project to help to start a fresh website using [Grunt.js](http://grunt
 
 First, make sure you have the lastest Node and npm. Go to [nodejs.org](http://nodejs.org/), download and install it.
 
-To get the Grunt and Bower commands set up:
+To get everything setup, just run the setup script.
 
 ```bash
-$ npm install -g grunt-cli
-$ npm install -g bower
+$ script/setup
 ```
 
-To get the blank slate up and running:
+To run the project, you can simply run:
 
-```bash
-$ npm install
-$ bower install
 ```
-
-If you don't already have [the `scss-lint` Ruby gem](https://github.com/causes/scss-lint) installed, you'll need to do that:
-
-```bash
-$ gem update --system
-$ gem install scss-lint
-```
-
-And finally, to start up the project:
-
-```bash
 $ grunt
 ```
 
+Or, in the style of "[Scripts To Rule Them All](http://githubengineering.com/scripts-to-rule-them-all/)", you can run:
+
+```bash
+$ script/server
+```
+
 Open [localhost:3000](http://localhost:3000) in your browser to see your new project. To see [BrowserSync](http://www.browsersync.io/)'s UI, open [localhost:3001](http://localhost:3001).
+
+To update your project if the dependencies have been changed, run:
+
+```bash
+$ script/update
+```
 
 ### Next Steps
 

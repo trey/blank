@@ -14,9 +14,5 @@
     "tests"
   ],
   "dependencies": {
-    "react": "latest",
-    "jquery": "latest",
-    "svg4everybody": "latest",
-    "normalize.css": "latest"
   }
 }

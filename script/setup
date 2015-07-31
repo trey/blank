@@ -1,0 +1,5 @@
+#!/bin/bash
+
+script/bootstrap
+
+echo "==> Your Blank Slate is now ready to go!"
