@@ -52,7 +52,7 @@ $ git commit -m "Starting point based on Trey's Blank Slate."
 
 ---
 
-Note: `src/index.html` is mostly [HTML5 Boilerplate](http://html5boilerplate.com/) with stuff stripped out.
+Note: `src/index.html` is mostly [HTML5 Boilerplate](http://html5boilerplate.com/) with stuff stripped out. `/css/scss/normalize.scss` is from [normalize.css](http://necolas.github.io/normalize.css/).
 
 The idea for this came from [the little Solutions Log post I wrote](https://gist.github.com/trey/6679792) and the fact that I had to keep referring to it to build little one off prototypes I was working on. Now I can just grab a copy of this and get rocking  immediately.
 

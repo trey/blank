@@ -1,0 +1,10 @@
+a {
+    color: rgba(255, 255, 255, .7);
+
+    &:hover { color: rgba(255, 255, 255, .9); }
+}
+
+body {
+    color: rgba(0, 0, 0, .4);
+    font-family: Georgia, serif;
+}

@@ -5,7 +5,7 @@ module.exports = {
         },
         files: [{
             expand: true,
-            cwd: 'src/static/css/scss',
+            cwd: 'src/static/css',
             src: ['*.scss'],
             dest: 'src/static/css',
             ext: '.css'

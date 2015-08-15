@@ -20,7 +20,7 @@ module.exports = {
             //but don't reload the browser.
             livereload: false,
         },
-        files: ['src/static/css/scss/**/*.scss'],
+        files: ['src/static/css/**/*.scss'],
         tasks: ['scsslint', 'sass']
     },
     css: {
