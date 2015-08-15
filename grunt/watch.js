@@ -3,14 +3,15 @@ module.exports = {
         livereload: true,
     },
     html: {
-        files: ['index.html'],
+        files: ['src/**/*.html'],
+        tasks: ['copy']
     },
     js: {
-        files: ['static/js/**/*.js'],
+        files: ['dist/static/js/**/*.js'],
         tasks: ['jshint']
     },
     jsx: {
-        files: ['static/js/jsx/**/*.jsx'],
+        files: ['src/static/js/jsx/**/*.jsx'],
         tasks: ['react']
     },
     sass: {
@@ -19,17 +20,21 @@ module.exports = {
             //but don't reload the browser.
             livereload: false,
         },
-        files: ['static/css/scss/**/*.scss'],
+        files: ['src/static/css/scss/**/*.scss'],
         tasks: ['scsslint', 'sass']
     },
     css: {
         // LiveReload on the CSS files instead of their Sass source files and
         // get the style to refresh without reloading the page in the browser.
-        files: ['static/css/build/**/*.css'],
+        files: ['src/static/css/**/*.css'],
         tasks: ['postcss']
     },
     svg: {
-        files: ['static/img/svg/**/*.svg'],
+        files: ['src/static/img/svg/**/*.svg'],
         tasks: ['svgstore', 'svgmin']
+    },
+    images: {
+        files: ['src/static/img/**/*.{png,jpg,gif}'],
+        tasks: ['imagemin']
     }
 };

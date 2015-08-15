@@ -7,6 +7,8 @@ grunt_plugins=(
     "grunt-contrib-connect"
     "grunt-contrib-jshint"
     "grunt-contrib-uglify"
+    "grunt-contrib-copy"
+    "grunt-contrib-imagemin"
     "grunt-notify"
     "grunt-svgstore"
     "load-grunt-config"

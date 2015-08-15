@@ -4,7 +4,7 @@ This is a project to help to start a fresh website using [Grunt.js](http://grunt
 
 ## Installation
 
-First, make sure you have the lastest Node and npm. Go to [nodejs.org](http://nodejs.org/), download and install it.
+First, make sure you have the latest Node and npm. Go to [nodejs.org](http://nodejs.org/), download and install it.
 
 To get everything setup, just run the setup script.
 
@@ -34,15 +34,25 @@ $ script/update
 
 ### Next Steps
 
-- Delete the existing `.git` folder if it's there. This is *your* project now.
-    - `$ rm -rf .git`
+Delete the existing `.git` folder. This is *your* project now.
+
+```bash
+$ rm -rf .git
+```
+
 - Edit the `name`, `version`, and `repository` fields in `package.json`.
 - Replace the contents of `README.md` with things relevant to your project.
-- Git-ify your sparkly new project as usual (`git init` and all that).
+- Setup a new git repository.
+
+```bash
+$ git init
+$ git add .
+$ git commit -m "Starting point based on Trey's Blank Slate."
+```
 
 ---
 
-Note: `index.html` is mostly [HTML5 Boilerplate](http://html5boilerplate.com/) with stuff stripped out. `/css/scss/normalize.scss` is from [normalize.css](http://necolas.github.io/normalize.css/).
+Note: `src/index.html` is mostly [HTML5 Boilerplate](http://html5boilerplate.com/) with stuff stripped out.
 
 The idea for this came from [the little Solutions Log post I wrote](https://gist.github.com/trey/6679792) and the fact that I had to keep referring to it to build little one off prototypes I was working on. Now I can just grab a copy of this and get rocking  immediately.
 

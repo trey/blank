@@ -6,7 +6,7 @@ module.exports = {
     },
     dist: {
         files: {
-            'static/img/sprites.svg': 'static/img/sprites.svg'
+            'dist/static/img/sprites.svg': 'dist/static/img/sprites.svg'
         }
     }
 };

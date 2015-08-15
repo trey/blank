@@ -1,9 +1,9 @@
 .sass-cache/
 bower_components/
 node_modules/
-static/css/build/
-static/css/*.css
-static/css/*.map
-static/js/*.js
-static/img/sprites.svg
-static/img/sprites-demo.html
+src/static/css/*.css
+src/static/css/*.map
+src/static/js/*.js
+src/static/img/sprites.svg
+src/static/img/sprites-demo.html
+dist/

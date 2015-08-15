@@ -9,9 +9,9 @@ module.exports = {
     },
     target: {
         expand: true,
-        cwd: 'static/css/build',
+        cwd: 'src/static/css',
         src: ['*.css'],
-        dest: 'static/css',
+        dest: 'dist/static/css',
         ext: '.css'
     }
 };

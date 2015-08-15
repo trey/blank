@@ -1,6 +1,6 @@
 var App = React.createClass({
     componentDidMount: function(){
-        console.log('Welcome! You can edit me in /static/js/jsx/app.jsx. If you have any questions, ask https://twitter.com/trey.');
+        console.log('Welcome! You can edit me in /src/static/js/jsx/app.jsx. If you have any questions, ask https://twitter.com/trey.');
     },
 
     render: function(){
@@ -14,5 +14,5 @@ var App = React.createClass({
 
 React.render(
     <App />,
-    $('header')[0]
+    document.querySelector('header')
 );
