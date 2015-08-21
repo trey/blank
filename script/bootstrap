@@ -13,7 +13,6 @@ grunt_plugins=(
     "grunt-svgstore"
     "load-grunt-config"
     "grunt-scss-lint"
-    "grunt-autoprefixer"
     "grunt-browser-sync"
     "grunt-react"
     "grunt-svgmin"
