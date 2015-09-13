@@ -3,7 +3,7 @@ module.exports = {
         'imagemin',
         'copy',
         'connect',
-        'scsslint',
+        'sasslint',
         'sass',
         'postcss',
         'react',

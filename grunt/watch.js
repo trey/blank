@@ -21,7 +21,7 @@ module.exports = {
             livereload: false,
         },
         files: ['src/static/css/**/*.scss'],
-        tasks: ['scsslint', 'sass']
+        tasks: ['sasslint', 'sass']
     },
     css: {
         // LiveReload on the CSS files instead of their Sass source files and

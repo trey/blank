@@ -4,6 +4,9 @@
 //   http://codepen.io/tommymarshall/pen/agABu
 //   http://viget.com/extend/sass-maps-are-awesome
 
+$black: #000;
+$red: #ff2a2a;
+
 @mixin breakpoints-display($query) {
     @media only screen and #{$query} {
         @content;
@@ -11,13 +14,13 @@
 }
 
 body:after {
-    color: #000;
+    color: $black;
     font-family: Helvetica;
     font-size: 20px;
-    padding: 5px;
     font-weight: bold;
-    right: 10px;
+    padding: 5px;
     position: fixed;
+    right: 10px;
     text-align: center;
     text-transform: uppercase;
     top: 10px;
@@ -29,10 +32,9 @@ body:after {
     // 2. lighten the background color an additional 5% for each loop
 
     @each $point, $query in $breakpoints {
-        $index: index(map-keys($breakpoints), $point);
-
         @include breakpoints-display($query) {
-            background: lighten(#ff2a2a, 5 * $index);
+            $index: index(map-keys($breakpoints), $point);
+            background: lighten($red, 5 * $index);
             content: '#{$point}';
         }
     }
