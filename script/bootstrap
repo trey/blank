@@ -17,7 +17,7 @@ grunt_plugins=(
     "grunt-react"
     "grunt-svgmin"
     "grunt-postcss"
-    "autoprefixer-core"
+    "autoprefixer"
 )
 
 bower_plugins=(
