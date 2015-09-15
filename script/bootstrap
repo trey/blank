@@ -17,7 +17,7 @@ grunt_plugins=(
     "grunt-svgmin"
     "grunt-postcss"
     "autoprefixer"
-    "git://github.com/trey/grunt-sass-lint.git#update-sass-lint"
+    "git://github.com/sasstools/grunt-sass-lint.git"
 )
 
 bower_plugins=(
