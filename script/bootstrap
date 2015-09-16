@@ -18,6 +18,7 @@ grunt_plugins=(
     "grunt-postcss"
     "autoprefixer"
     "git://github.com/sasstools/grunt-sass-lint.git"
+    "grunt-contrib-cssmin"
 )
 
 bower_plugins=(

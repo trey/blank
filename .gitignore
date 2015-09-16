@@ -1,6 +1,7 @@
 .sass-cache/
 bower_components/
 node_modules/
+src/static/css/build/
 src/static/css/*.css
 src/static/css/*.map
 src/static/js/*.js

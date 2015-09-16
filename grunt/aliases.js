@@ -6,6 +6,7 @@ module.exports = {
         'sasslint',
         'sass',
         'postcss',
+        'cssmin',
         'react',
         'svgstore',
         'svgmin',
