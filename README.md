@@ -50,6 +50,8 @@ $ git add .
 $ git commit -m "Starting point based on Trey's Blank Slate."
 ```
 
+You might also consider customizing the `bootstrap` script in the `script/` folder. It's only relevant for getting your project set up the first time.
+
 ---
 
 Note: `src/index.html` is mostly [HTML5 Boilerplate](http://html5boilerplate.com/) with stuff stripped out. `/css/scss/normalize.scss` is from [normalize.css](http://necolas.github.io/normalize.css/).
