@@ -25,7 +25,6 @@ bower_plugins=(
     "react"
     "jquery"
     "svg4everybody"
-    "normalize.css"
 )
 
 echo "==> Installing Grunt..."
