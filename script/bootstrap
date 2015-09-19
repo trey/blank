@@ -27,11 +27,19 @@ bower_plugins=(
     "svg4everybody"
 )
 
-echo "==> Installing Grunt..."
-npm install -g grunt-cli
+if hash grunt 2>/dev/null; then
+    echo "==> Grunt already installed."
+else
+    echo "==> Installing Grunt..."
+    npm install -g grunt-cli
+fi
 
-echo "==> Installing Bower..."
-npm install -g bower
+if hash bower 2>/dev/null; then
+    echo "==> Bower already installed."
+else
+    echo "==> Installing Bower..."
+    npm install -g bower
+fi
 
 echo "==> Installing Grunt plugins..."
 
