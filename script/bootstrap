@@ -1,29 +1,31 @@
 #!/bin/bash
 
 grunt_plugins=(
-    "grunt"
-    "grunt-sass"
-    "grunt-contrib-watch"
-    "grunt-contrib-connect"
-    "grunt-contrib-jshint"
-    "grunt-contrib-uglify"
-    "grunt-contrib-copy"
-    "grunt-contrib-imagemin"
-    "grunt-notify"
-    "grunt-svgstore"
-    "load-grunt-config"
-    "grunt-browser-sync"
-    "grunt-react"
-    "grunt-svgmin"
-    "grunt-postcss"
     "autoprefixer"
+    "babel-eslint"
+    "eslint"
     "git://github.com/sasstools/grunt-sass-lint.git"
+    "grunt-babel"
+    "grunt-browser-sync"
+    "grunt-contrib-connect"
+    "grunt-contrib-copy"
     "grunt-contrib-cssmin"
+    "grunt-contrib-imagemin"
+    "grunt-contrib-uglify"
+    "grunt-contrib-watch"
+    "grunt-eslint"
+    "grunt-notify"
+    "grunt-postcss"
+    "grunt-sass"
+    "grunt-svgmin"
+    "grunt-svgstore"
+    "grunt"
+    "load-grunt-config"
 )
 
 bower_plugins=(
-    "react"
     "jquery"
+    "react"
     "svg4everybody"
 )
 

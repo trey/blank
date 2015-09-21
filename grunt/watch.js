@@ -6,13 +6,12 @@ module.exports = {
         files: ['src/**/*.html'],
         tasks: ['copy']
     },
-    js: {
-        files: ['dist/static/js/**/*.js'],
-        tasks: ['jshint']
-    },
     jsx: {
-        files: ['src/static/js/jsx/**/*.jsx'],
-        tasks: ['react']
+        files: [
+            'src/static/js/**/*.js',
+            'src/static/js/**/*.jsx'
+        ],
+        tasks: ['eslint', 'babel']
     },
     sass: {
         options: { livereload: false },
