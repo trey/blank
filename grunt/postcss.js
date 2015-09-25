@@ -3,7 +3,7 @@ module.exports = {
         map: { inline: true },
         processors: [
             require('autoprefixer')(
-                { browsers: ['last 2 versions', 'ie 10', 'ie 11'] }
+                { browsers: ['last 2 versions'] }
             ),
         ]
     },

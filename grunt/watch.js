@@ -1,6 +1,6 @@
 module.exports = {
     options: {
-        livereload: true,
+        livereload: true
     },
     html: {
         files: ['src/**/*.html'],
