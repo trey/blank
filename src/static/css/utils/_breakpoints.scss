@@ -1,15 +1,14 @@
 // Replace these sizes and names with whatever you want.
 
 $breakpoints: (
-    mobile:   '(max-width: 580px)',
-    tablet:   '(min-width: 581px) and (max-width: 890px)',
-    notebook: '(min-width: 891px) and (max-width: 1120px)',
-    desktop:  '(min-width: 1121px) and (max-width: 1400px)',
-    cinema:   '(min-width: 1401px)'
+    S:  '(min-width: 580px)',
+    M:  '(min-width: 890px)',
+    L:  '(min-width: 1120px)',
+    XL: '(min-width: 1400px)'
 );
 
 // Example usage:
-//     @include breakpoint('mobile') { /*...*/ }
+//     @include breakpoint('S') { /*...*/ }
 
 @mixin breakpoint($query) {
     @media only screen and #{map-get($breakpoints, $query)} {
