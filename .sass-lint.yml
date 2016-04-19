@@ -3,10 +3,7 @@
 options:
   formatter: stylish
 files:
-  include: 'src/static/css/**/*.scss'
-  ignore:
-    - 'src/static/css/vendors/*.scss'
-    - 'src/static/css/base/_reset.scss'
+  include: '**/*.scss'
 rules:
   # Extends
   extends-before-mixins: 1
@@ -63,3 +60,4 @@ rules:
   # Final Items
   trailing-semicolon: 1
   final-newline: 1
+  force-pseudo-nesting: 0
