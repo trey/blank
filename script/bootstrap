@@ -3,6 +3,9 @@
 grunt_plugins=(
     "autoprefixer"
     "babel-eslint"
+    "babel-plugin-transform-react-jsx"
+    "babel-preset-es2015"
+    "babel-preset-react"
     "eslint"
     "git://github.com/sasstools/grunt-sass-lint.git"
     "grunt-babel"
