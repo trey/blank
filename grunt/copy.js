@@ -11,7 +11,7 @@ module.exports = {
                 expand: true,
                 cwd: 'bower_components',
                 src: '**/*.*',
-                dest: 'dist/static/bower_components/'
+                dest: 'dist/bower_components/'
             }
         ]
     }

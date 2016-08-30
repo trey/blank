@@ -1,6 +1,6 @@
 var App = React.createClass({
     componentDidMount() {
-        console.info('Welcome! You can edit me in /src/static/js/jsx/app.jsx. If you have any questions, ask https://twitter.com/trey.');
+        console.info('Welcome! You can edit me in /src/js/jsx/app.jsx. If you have any questions, ask https://twitter.com/trey.');
     },
 
     render() {

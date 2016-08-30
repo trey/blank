@@ -1,9 +1,9 @@
 module.exports = {
     files: {
         expand: true,
-        cwd: 'src/static/js/jsx',
+        cwd: 'src/js/jsx',
         src: ['**/*.jsx'],
-        dest: 'dist/static/js',
+        dest: 'dist/js',
         ext: '.js'
     }
 };

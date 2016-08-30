@@ -13,7 +13,7 @@ $red: #ff2a2a;
     }
 }
 
-body:after {
+body::after {
     color: $black;
     font-family: Helvetica;
     font-size: 20px;

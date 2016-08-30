@@ -3,8 +3,8 @@ module.exports = {
         configFile: '.sass-lint.yml',
     },
     target: [
-        'src/static/css/**/*.scss',
-        '!src/static/css/vendors/*.scss',
-        '!src/static/css/base/_reset.scss'
+        'src/css/**/*.scss',
+        '!src/css/vendors/*.scss',
+        '!src/css/base/_reset.scss'
     ]
 };

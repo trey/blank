@@ -8,7 +8,7 @@ module.exports = {
     },
     default: {
         files: {
-            'dist/static/img/sprites.svg': ['src/static/img/svg/**/*.svg']
+            'dist/img/sprites.svg': ['src/img/svg/**/*.svg']
         }
     }
 };

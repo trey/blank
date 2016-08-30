@@ -1,13 +1,13 @@
 module.exports = {
     dev: {
         bsFiles: {
-            src: 'dist/static/css/**/*.css'
+            src: 'dist/css/**/*.css'
         },
         options: {
             watchTask: true,
             files: [
-                'dist/static/css/**/*.css',
-                'dist/static/js/**/*.js',
+                'dist/css/**/*.css',
+                'dist/js/**/*.js',
                 'dist/*.html'
             ],
             open: false,

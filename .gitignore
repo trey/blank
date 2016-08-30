@@ -1,10 +1,10 @@
 .sass-cache/
 bower_components/
 node_modules/
-src/static/css/build/
-src/static/css/*.css
-src/static/css/*.map
-src/static/js/*.js
-src/static/img/sprites.svg
-src/static/img/sprites-demo.html
+src/css/build/
+src/css/*.css
+src/css/*.map
+src/js/*.js
+src/img/sprites.svg
+src/img/sprites-demo.html
 dist/

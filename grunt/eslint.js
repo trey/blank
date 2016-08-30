@@ -1,7 +1,7 @@
 module.exports = {
     files: {
         expand: true,
-        cwd: 'src/static/js',
+        cwd: 'src/js',
         src: [
             '**/*.jsx',
             '**/*.js'
